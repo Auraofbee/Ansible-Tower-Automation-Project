@@ -36,7 +36,7 @@
         service httpd start
         chkconfig httpd on
         yum install wget
-        wget https://github.com/awanmbandi/aws-real-world-projects/raw/web-appplications-src-code/medlife-health-care.zip -P ~/
+        wget https://github.com/auraofbee/aws-real-world-projects/raw/web-appplications-src-code/medlife-health-care.zip -P ~/
         yum install unzip -y 
         unzip ~/medlife-health-care.zip
         rm -f /var/www/html/index.html 
